@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="HeartBeatView">
+        <!--        线框的颜色-->
+        <attr name="cus_grid_color" format="color" />
+        <!--        0线框的颜色-->
+        <attr name="cus_grid_zero_color" format="color" />
+        <!--        心跳线的颜色-->
+        <attr name="cus_heart_line_color" format="color" />
+        <!--        心跳线的颜色-->
+        <attr name="cus_heart_line_wight" format="dimension" />
+        <!--        小框的线粗-->
+        <attr name="cus_grid_width" format="dimension" />
+
+        <attr name="cus_max_value" format="integer" />
+        <attr name="cus_show_grid" format="boolean" />
+        <attr name="cus_show_zero_line" format="boolean" />
+        <attr name="cus_density" format="integer" />
+    </declare-styleable>
+</resources>
